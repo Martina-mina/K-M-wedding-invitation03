@@ -393,7 +393,7 @@
       var delay;
 
       if (duration && isFinite(duration) && duration > 0) {
-        delay = duration * 1000 + 1800;
+        delay = duration * 1000 + 2500;
       } else {
         var configuredSeconds = Number(intro && intro.getAttribute("data-intro-auto")) || 3;
         delay = Math.max(5000, configuredSeconds * 1000 + 2000);
